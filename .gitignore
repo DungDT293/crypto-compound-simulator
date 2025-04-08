@@ -1,0 +1,46 @@
+# 👉 Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 👉 Build output
+dist/
+build/
+
+# 👉 .env file chứa API keys hoặc biến môi trường bí mật
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# 👉 OS-specific files
+.DS_Store
+Thumbs.db
+
+# 👉 Editor settings
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# 👉 Testing coverage
+coverage/
+
+# 👉 Optional: nếu dùng TypeScript
+*.tsbuildinfo
+
+# 👉 Optional: nếu dùng logs riêng
+logs/
+*.log
+
+# 👉 Optional: nếu dùng Chrome debugging
+chrome-profile/
+
+# 👉 Optional: nếu có file lock
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
