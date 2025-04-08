@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mô phỏng Lãi Kép Crypto</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Mô phỏng Lãi Kép Crypto</h1>
+    <form id="simulation-form">
+        <label>Vốn ban đầu ($): <input type="number" id="initialCapital" value="10"></label><br>
+        <label>Số ngày: <input type="number" id="days" value="30"></label><br>
+        <label>Số lệnh mỗi ngày: <input type="number" id="tradesPerDay" value="5"></label><br>
+        <label>Số lệnh thắng mỗi ngày: <input type="number" id="winsPerDay" value="3"></label><br>
+        <label>Lãi mỗi lệnh thắng (%): <input type="number" id="profitPercent" value="50"></label><br>
+        <label>Lỗ mỗi lệnh thua (%): <input type="number" id="lossPercent" value="30"></label><br>
+        <button type="submit">Chạy mô phỏng</button>
+    </form>
+    <canvas id="capitalChart" width="800" height="400"></canvas>
+</body>
+</html>
